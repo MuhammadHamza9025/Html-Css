@@ -1,0 +1,9 @@
+#navbar ul{
+    display: flex;
+    flex-direction: column;
+  
+}
+.passage{
+    font-size: 1px;
+    padding: 0px;
+}

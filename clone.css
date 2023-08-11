@@ -1,0 +1,429 @@
+*{
+    margin: 0px;
+padding: 0px;
+font-family: Nunito, sans-serif;
+}
+header{
+    height: 130vh;
+}
+.header1{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.header1::before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 130vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)),url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c2d86bb166809064181470_hero-bg.jpg');
+background-size: cover;
+background-position: center;
+opacity: 1.5;
+z-index: -1;
+}
+/* Navigation bar */
+#navbar{
+    display: flex;
+    flex-direction: row;
+  
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#navbar li{
+    margin: 0.6rem;
+    margin-top: 2.5rem;
+}
+#navbar li a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    padding: 0.9rem;
+   
+}
+#navbar li a:hover{
+    color: #0082f3;
+}
+/* Logo section */
+#logo{
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    color: white;
+    font-size: 1.6rem;
+}
+/* PAssage */
+.passage{
+    height: 35vw;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+    margin-top: rem;
+    color: white;
+justify-content: center;
+align-items: center;
+padding: 6rem;
+}
+.buttons{
+    display: flex;
+    margin-top: 3rem;
+   
+}
+.download input{
+    margin-right: 1rem;
+    
+    background: rgba(77,140,245,255);
+    border: none;
+    width: 12rem;
+    border-radius: 0.24rem;
+    height: 3rem;
+    color: white;
+    font-size: 1.3rem;
+    
+
+}
+.download input:hover{
+    background: rgb(67, 66, 66);
+}
+.new input{
+    color: white;
+    border-radius: 0.24rem;
+    border: 1px solid #0082f3;
+    width: 12rem;
+    height: 3rem;
+    background: none;
+    font-size: 1.3rem;
+}
+.new input:hover{
+    background: ;
+    background: rgba(77,140,245,255);
+  
+}
+/* ABOUT */
+#about{
+    margin-top: 7rem;
+    font-size: 2rem;
+    
+    font-weight: 400;
+}
+.about{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(14, 12, 12);
+}
+#about p{
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+#aboutcon{
+    margin-top: 3rem;
+    
+    display:flex;
+    height: 50vh;
+    justify-content: space-between;
+}
+.paragraph{
+    
+    width: 30%;
+    margin-left: 5rem;
+}
+.img{
+    
+    margin-right: 15rem;
+    margin-top: 0px;
+    
+  overflow: hidden;
+    /* width: 50vw; */
+}
+/* PORTFOLIO */
+
+#portfolio{
+    margin-top: 7rem;
+    font-size: 2rem;
+   
+    font-weight: 400;
+}
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    color: rgb(14, 12, 12);
+
+}
+#portfolio p{
+    font-size: 1rem;
+    margin-top: 1rem;
+
+}
+#portfoliopics{
+    margin-top: 3rem;
+    height: 73vh;
+}
+.firstrow{
+    display: flex;
+    
+    height: 35vh; 
+}
+.pic1{
+    
+    height: 35vh;
+    width: 25vw;
+    overflow: hidden;
+    background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c2fc413566a09e01f711c4_work-9.jpg');
+    background-position: center;
+    background-size: cover;
+
+
+}
+.pic2{
+    
+    height: 35vh;
+    width: 25vw;
+    overflow: hidden;
+    background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c3009bf69ff41454c6fe63_work-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.pic3{
+    
+    height: 35vh;
+    width: 25vw;
+    overflow: hidden;
+    background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c3009b617cac9b64365383_work-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.pic4{
+    
+    height: 35vh;
+    width: 25vw;
+    overflow: hidden;
+    background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c3009b52f6a18001ef67c2_work-3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.secondrow{
+    display: flex;
+    
+    height: 35vh; 
+}
+.pic5{
+    
+    height: 35vh;
+    width: 25vw;
+    overflow: hidden;
+    background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c3009b52f6a18001ef67c3_work-5.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.pic6{
+    
+    height: 35vh;
+    width: 25vw;
+    overflow: hidden;
+    background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c3009b617cac9b64365384_work-4.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.pic7{
+    
+    height: 35vh;
+    width: 25vw;
+    overflow: hidden;
+    background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c3009c739f273554ad015b_work-7.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+.pic8{
+    height: 35vh;
+    width: 25vw;
+    overflow: hidden;
+    background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c3009c617cac9b64365385_work-8.jpg');
+    background-position: center;
+    background-size: cover;
+   background-color: #0082f3;
+
+}
+.pic6:hover {
+  z-index: 10;
+    color: aqua;
+    cursor: pointer;
+    color: black;
+    background-color: #0082f3;
+}
+/* project */
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+    color: rgb(96, 96, 96);
+    
+}
+.project input{
+    width: 15vw;
+    height: 2.4rem;
+background: none;
+border:1px solid #0082f3;    
+font-size: 1rem;
+border-radius: 0.2rem;
+margin-top: 2.5rem;
+}
+.project input:hover{
+    background-color: #0082f3;
+    color: white;
+    font-weight: bold;
+
+}
+#testi{
+    height: 65vh;
+
+}
+
+.test::before{
+    content: "";
+    /* top: 0px; */
+    left: 0px;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 65vh;
+    background: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)),url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f273554acc4af/57c30503617cac9b64365d2e_testimonial-bg.jpg');
+background-size: cover;
+/* background: url('https://daks2k3a4ib2z.cloudfront.net/57c2c646739f2…cc4af/57c30503617cac9b64365d2e_testimonial-bg.jpg'); */
+background-position: center;
+
+opacity: 1.5;
+z-index: -1;
+
+}
+.test{
+    color: white;
+    margin-top: 6rem;
+    
+}
+.test p{
+    margin-bottom: 4rem;
+    border: 0.001px solid rgb(96, 96, 96);
+}
+.ter{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ 
+    margin-top: 5rem;
+font-weight: 120;
+    color: white;
+}
+.pa{
+    
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    margin-top: 5rem;
+}
+.pa span{
+    margin: auto;
+    margin-top: 3rem;
+    color: #0082f3;
+    font-weight: bold;
+}
+/* Contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.contact span{
+    margin-top: 1rem;
+    color: grey;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#form input{
+    padding-left: 1rem;
+    width: 70vw;
+    margin: auto;
+    margin-top: 1.5rem;
+    height: 10vh;
+    background: #f5f5f5;
+    border: 0.2px solid gray;
+    outline:none;
+}
+textarea{
+    width: 70vw;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background: #f5f5f5;
+    border: 0.2px solid gray;
+    outline:none;
+}
+.submit
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+.submit input{
+    width: 15vw;
+    padding: 0.8rem;
+    color: white;
+    background-color: #0082f3;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
+.submit input:hover{
+    background-color: rgb(49, 49, 49);
+}
+footer{
+    margin-top: 3rem;
+    font-size: 0.6rem;
+    height: 5vw;
+    background-color: rgb(43, 43, 43);
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
